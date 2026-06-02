@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* fundo claro */
+    background-color: #d9ecff; /* azul claro */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -58,27 +58,27 @@ button:hover {
     background-color: #14264a;
 }
 
-/* “TABELA” DE TAREFAS */
+/* LISTA estilo tabela */
 ul {
     list-style: none;
     margin-top: 10px;
 }
 
-/* cada tarefa vira uma linha estilo tabela */
+/* cada tarefa vira uma linha */
 li {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    background-color: #f3ead7; /* bege */
+    background-color: #f5ecd7; /* bege suave */
     padding: 12px;
     margin-bottom: 10px;
     border-radius: 6px;
 
-    border: 1px solid #e0d3b8;
+    border: 1px solid #e6d8b8;
 }
 
-/* botão excluir mais escuro */
+/* botão excluir */
 .excluir {
     background-color: #1f3b73;
 }
